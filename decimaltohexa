@@ -1,0 +1,13 @@
+import java.util.*;
+class Myconvertions_dtoh
+{
+    public static void main(String args[])
+   {
+      int n;
+      Scanner sc=new Scanner(System.in);
+      System.out.print("Enter a decimal num:");
+      n=sc.nextInt();
+      String h=Integer.toHexString(n);
+      System.out.println("Hexavalue:"+h);
+    }
+}
